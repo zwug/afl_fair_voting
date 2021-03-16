@@ -29,6 +29,10 @@
       method: 'POST',
       mode: 'cors',
       credentials: 'omit',
+    }).then(() => {
+     alert("голоса накручены успешно <3"); 
+    }).catch((e) => {
+     alert(`Ошиба - ${e}`); 
     });
   </script>
 </head>
