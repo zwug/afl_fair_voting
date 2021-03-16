@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script>
+    window.onAekClick = fetch("https://footballista.ru/api/award/vote",{headers:{accept:"application/json, text/plain, */*","accept-language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6","content-type":"application/json","sec-ch-ua":'"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',"sec-ch-ua-mobile":"?0","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"cross-site"},referrer:"https://afl.ru/",referrerPolicy:"strict-origin-when-cross-origin",body:'{"champ_id":2138,"user_uid":"79185788-882b-47db-b355-91a0a2ed9331","categories":[{"name":"goalkeeper","player_id":562665},{"name":"defender","player_id":470840},{"name":"midfielder","player_id":456118},{"name":"striker","player_id":563797},{"name":"captain","player_id":470845}]}',method:"POST",mode:"cors",credentials:"omit"});
+  </script>
 </head>
 <body>
-  <button onclick="fetch("https://footballista.ru/api/award/vote",{headers:{accept:"application/json, text/plain, */*","accept-language":"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6","content-type":"application/json","sec-ch-ua":'"Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"',"sec-ch-ua-mobile":"?0","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"cross-site"},referrer:"https://afl.ru/",referrerPolicy:"strict-origin-when-cross-origin",body:'{"champ_id":2138,"user_uid":"79185788-882b-47db-b355-91a0a2ed9331","categories":[{"name":"goalkeeper","player_id":562665},{"name":"defender","player_id":470840},{"name":"midfielder","player_id":456118},{"name":"striker","player_id":563797},{"name":"captain","player_id":470845}]}',method:"POST",mode:"cors",credentials:"omit"});">
+  <button onclick="window.onAekClick">
   Накрутить голоса для АЕК
   </button>
 </body>
